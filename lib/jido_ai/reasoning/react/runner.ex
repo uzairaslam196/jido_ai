@@ -14,7 +14,7 @@ defmodule Jido.AI.Reasoning.ReAct.Runner do
 
   require Logger
 
-  @receive_timeout 30_000
+  @receive_timeout 120_000
 
   # Injected as a user message when the agent repeats the exact same tool
   # calls with identical arguments on consecutive iterations.
